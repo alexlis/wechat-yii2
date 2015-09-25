@@ -41,8 +41,6 @@ class Weixin {
       if($this->checkSignature()){
           echo $this->echostr;
           Yii::$app->end();
-      } else {
-      	echo "signature error!";
       }
     }
  

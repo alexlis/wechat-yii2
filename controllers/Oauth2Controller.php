@@ -24,7 +24,7 @@ class Oauth2Controller extends AuthController
 
 	
 	}
-	public function actionOauthVerify() {
+	public function actionOauthVerify() { print_r("   hellohello!    "); exit;
 		// $data = [];
 		// $data['appid'] = 'wxbdc5610cc59c1631'; 
 		// $data['redirect_uri'] = 'https://passport.yhd.com/wechat/callback.do?';
